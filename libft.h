@@ -20,6 +20,8 @@
 # include <ctype.h>
 # include <xlocale.h>
 # include <stdarg.h>
+#include "printf/ft_printf.h"
+#include "get_next_line/get_next_line.h"
 
 int		ft_atoi(const char *str);
 int		ft_isalnum(int c);
@@ -55,17 +57,5 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char *));
 size_t	ft_strlcat(char *dst, const char *src, unsigned int dstsize);
 size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize);
 size_t	ft_strlen(const char *str);
-
-// printf
-//int	ft_printf(const char *format, ...);
-//int	ft_check_type(const char type, va_list args);
-//int	ft_put_c(char c);
-//int	ft_put_d_i(long nb);
-//int	ft_put_p(void *arg);
-//int	ft_put_s(char *str);
-//int	ft_put_u(unsigned int nb);
-//int	ft_put_x(unsigned long int nb, unsigned int type);
-//int	ft_base16(unsigned long nb, char *alpha);
-//int	ft_putchar(char c);
 
 #endif

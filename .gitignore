@@ -3,4 +3,4 @@ a.out
 printf/*.o
 *.a
 .idea/
-
+get_next_line/*.o

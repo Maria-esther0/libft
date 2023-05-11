@@ -42,7 +42,9 @@ SRCS	= 	ft_atoi.c \
 			printf/ft_put_s.c \
 			printf/ft_put_u.c \
 			printf/ft_put_x.c \
-			printf/ft_put_p.c
+			printf/ft_put_p.c \
+			get_next_line/get_next_line.c
+#			get_next_line/get_next_line_bonus \
 
 OBJS	= ${SRCS:.c=.o}
 
